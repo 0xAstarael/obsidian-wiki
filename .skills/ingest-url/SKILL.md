@@ -241,6 +241,8 @@ If a `## References` section already exists, append to it. Update the `updated` 
 
 ## Step 7: Update Manifest and Special Files
 
+**Timestamps:** before writing any `TIMESTAMP` value below, run `date -u +%FT%TZ` via the Bash tool and use that exact output verbatim. LLMs reliably hallucinate plausible-looking timestamps (typically round-minute UTC times like `18:30:00Z`) when asked to compose them from memory — this makes `.manifest.json` and `log.md` useless for forensic timeline reconstruction. Always measure, never compose.
+
 **`.manifest.json`** — add or update the entry:
 
 ```json

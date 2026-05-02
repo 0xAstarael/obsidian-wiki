@@ -148,6 +148,8 @@ For each impacted project, create/update `projects/<name>/<name>.md`.
 
 ## Step 6: Update Manifest, Log, and Index
 
+**Timestamps:** before writing any `TIMESTAMP` value below, run `date -u +%FT%TZ` via the Bash tool and use that exact output verbatim. LLMs reliably hallucinate plausible-looking timestamps (typically round-minute UTC times like `18:30:00Z`) when asked to compose them from memory — this makes `.manifest.json` and `log.md` useless for forensic timeline reconstruction. Always measure, never compose.
+
 ### Update `.manifest.json`
 
 For each processed source file:
