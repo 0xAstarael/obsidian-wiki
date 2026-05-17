@@ -1,0 +1,18 @@
+{
+  "name": "obsidian-wiki",
+  "version": "0.1.0",
+  "description": "LLM Wiki skills for Obsidian — ingest, synthesis, maintenance, history mining",
+  "author": {
+    "name": "Yunke Liu",
+    "url": "https://github.com/0xAstarael"
+  },
+  "repository": "https://github.com/0xAstarael/obsidian-wiki",
+  "license": "MIT",
+  "keywords": [
+    "obsidian",
+    "wiki",
+    "llm-wiki",
+    "knowledge-management",
+    "pkm"
+  ]
+}

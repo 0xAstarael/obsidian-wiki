@@ -1,0 +1,16 @@
+{
+  "name": "obsidian-wiki",
+  "description": "Yunke's fork of Ar9av/obsidian-wiki — packaged for Claude Code plugin install",
+  "owner": {
+    "name": "Yunke Liu",
+    "url": "https://github.com/0xAstarael"
+  },
+  "plugins": [
+    {
+      "name": "obsidian-wiki",
+      "source": "./",
+      "description": "LLM Wiki skills for Obsidian — ingest, synthesis, maintenance",
+      "version": "0.1.0"
+    }
+  ]
+}
